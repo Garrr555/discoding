@@ -1,0 +1,41 @@
+body{
+    background-color: white;
+}
+
+nav.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav ul{
+    gap: 0rem 0.5rem;
+}
+
+.navbar .container-fluid .collapse li.nav-item .nav-link{
+    text-decoration: none; /* menghilangkan dekorasi teks, seperti garis bawah atau garis di atas teks */
+    font-size: 1rem;
+    font-weight: 500;
+    padding: .5rem 1rem;
+    border-radius: 999px;
+    transition: all .2s ease-in-out; /* mengatur bagaimana perubahan gaya (seperti perubahan warna, ukuran, atau pergeseran posisi) dalam elemen akan diterapkan secara halus dan transisi, sehingga perubahan tersebut tidak terjadi secara instan. */
+}
+
+.navbar .container-fluid .collapse li.nav-item .nav-link:hover{
+    background-color: #425c77;
+    color: white;
+}
+
+.jumbotron{
+    margin-top: -70px;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.jumbotron img h1 p{
+    margin: auto;
+}
+
+section{
+    padding-top: 6rem;
+}
